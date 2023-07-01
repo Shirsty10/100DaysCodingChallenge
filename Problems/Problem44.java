@@ -22,7 +22,7 @@ public class Problem44 {
 
       while(fast!=null && fast.next.next!=null){
         slow = slow.next;
-        fast = fast.next;
+        fast = fast.next.next;
       }
 
       return slow.data;
