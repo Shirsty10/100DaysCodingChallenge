@@ -1,4 +1,7 @@
 package Problems;
+// Input: Str = “aabbcc”, k = 1
+// Output: 2
+// Explanation: Max substring can be any one from {“aa” , “bb” , “cc”}.
 
 import java.util.HashMap;
 

@@ -1,16 +1,6 @@
 package Problems;
+import Problems.Implementation.GenericNode;
 
-import java.util.ArrayList;
-
-class GenericNode{
-  int data;
-  ArrayList<GenericNode> childrens;
-
-  GenericNode(int data){
-    this.data = data;
-    this.childrens = new ArrayList<>();
-  }
-}
 
 public class Problem69 {
 

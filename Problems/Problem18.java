@@ -1,5 +1,10 @@
 package Problems;
 
+// Input : aabcdaabc
+// Output : 4
+// The string "aabc" is the longest
+// prefix which is also suffix.
+
 public class Problem18 {
     
     static int prefixAndSuffix(String s){

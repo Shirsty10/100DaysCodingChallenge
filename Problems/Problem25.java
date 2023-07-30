@@ -1,4 +1,9 @@
 package Problems;
+// An edit between two strings is one of the following changes. 
+
+// Add a character
+// Delete a character
+// Change a character
 
 public class Problem25 {
     

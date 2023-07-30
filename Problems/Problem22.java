@@ -1,4 +1,6 @@
 package Problems;
+// Input: strs = ["eat","tea","tan","ate","nat","bat"]
+// Output: [["bat"],["nat","tan"],["ate","eat","tea"]]
 
 import java.util.ArrayList;
 import java.util.Arrays;

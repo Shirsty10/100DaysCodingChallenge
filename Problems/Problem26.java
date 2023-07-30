@@ -1,5 +1,6 @@
 package Problems;
-
+// Given a matrix of n x n size, the task is to find the saddle point of the matrix. A saddle point
+//  is an element of the matrix such that it is the minimum element in its row and the maximum in its column. 
 public class Problem26 {
      
     static int saddlePoint(int[][] arr){
