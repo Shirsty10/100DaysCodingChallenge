@@ -14,5 +14,23 @@ public class Problem77 {
             return node.data;
         }
     }
+
+    public static void main(String[] args){
+        
+        BinarySerachTreeImpl root = null;
+        root = Problem74.addNewNode(50,root);
+        Problem74.addNewNode(30,root);
+        Problem74.addNewNode(20,root);
+        Problem74.addNewNode(40,root);
+        Problem74.addNewNode( 70,root);
+        Problem74.addNewNode( 60,root);
+        Problem74.addNewNode(80,root);
+ 
+        // Print inorder traversal of the BST
+       // BinarySerachTreeImpl.Inorder(root);
+        System.out.println(lowestCommonAnc(root, 40, 60));
+
+       
+    }
     
 }
