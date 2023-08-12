@@ -13,6 +13,14 @@ public class BinarySerachTreeImpl {
         this.right=null;
     }
 
+    public String toString(){
+      return "[ "+ this.left + this.data + this.right + " ]";
+    }
+
+    public BinarySerachTreeImpl(){
+
+    }
+
     public static void Inorder(BinarySerachTreeImpl root)
     {
         if (root == null)
