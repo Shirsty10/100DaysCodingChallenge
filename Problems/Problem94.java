@@ -17,10 +17,10 @@ public class Problem94 {
       // Driver code
       public static void main(String args[])
       {
-          int coins[] = { 1, 2, 3 };
+          int coins[] = { 1, 2, 5};
         //   int n = coins.length;
    
-          coinChange(4, coins);
+          coinChange(11, coins);
       }
     
 }
