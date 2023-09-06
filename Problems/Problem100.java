@@ -11,16 +11,16 @@ public class Problem100 {
             if(prices[i] >= prices[i-1]){
                 sd++;
             }else{
-                profit = prices[sd]-prices[bd];
+                profit += prices[sd]-prices[bd];
                 bd=sd=i;
             }
         }
 
-        profit = prices[sd]-prices[bd];
+        profit+= prices[sd]-prices[bd];
         System.out.println(profit);
     }
     public static void main(String[] args){
-        int[] prices = {1,2,3,4,5};
+        int[] prices = {7, 1, 5, 3, 6, 4} ;
      
         buyAndSellStock2(prices);
     }
